@@ -6,3 +6,13 @@
 
 - link:
     ~/.inputrc: .inputrc
+
+
+- if:
+    cond: 'true'
+    met:
+    - shell:
+      - echo "It's true!"
+    unmet:
+    - shell:
+      - echo "It's false!"
